@@ -1,0 +1,130 @@
+/* Home Page Specific Styles */
+.home-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid rgba(0, 212, 255, 0.3);
+}
+
+.home-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.country-subtitle {
+    color: #00d4ff;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 0.5rem;
+}
+
+.project-info {
+    background: rgba(0, 212, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    border: 1px solid rgba(0, 212, 255, 0.2);
+}
+
+.project-info h3 {
+    color: #00d4ff;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.info-item {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 3px solid #00d4ff;
+}
+
+.info-item strong {
+    color: #00d4ff;
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+.introduction, .why-japan, .portfolio-purpose {
+    margin-bottom: 2.5rem;
+}
+
+.introduction h3, .why-japan h3, .portfolio-purpose h3, .quick-facts h3 {
+    color: #00d4ff;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
+}
+
+.introduction p, .why-japan p, .portfolio-purpose p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.reasons-list, .purpose-list {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.reasons-list li, .purpose-list li {
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.8rem;
+    background: rgba(0, 212, 255, 0.08);
+    border-left: 4px solid #00d4ff;
+    border-radius: 5px;
+    transition: background 0.2s ease;
+}
+
+.reasons-list li:hover, .purpose-list li:hover {
+    background: rgba(0, 212, 255, 0.15);
+}
+
+.quick-facts {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px solid rgba(0, 212, 255, 0.3);
+}
+
+.facts-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.fact-card {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid rgba(0, 212, 255, 0.2);
+    transition: border-color 0.2s ease;
+}
+
+.fact-card:hover {
+    border-color: #00d4ff;
+}
+
+.fact-icon {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.fact-card h4 {
+    color: #00d4ff;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.fact-card p {
+    color: #e0e0e0;
+    font-size: 1rem;
+}

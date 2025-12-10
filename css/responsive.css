@@ -1,0 +1,68 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .header-content {
+        margin-bottom: 1rem;
+    }
+
+    .header-content h1 {
+        font-size: 1.3rem;
+    }
+    
+    .header-content .subtitle {
+        font-size: 0.8rem;
+    }
+    
+    .header-content .subject {
+        font-size: 0.75rem;
+    }
+
+    .main-nav ul {
+        gap: 1rem;
+        justify-content: flex-start;
+    }
+
+    .members-list {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .members-list li {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    
+    .home-header h2 {
+        font-size: 1.8rem;
+    }
+    
+    .facts-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .hero-course {
+        font-size: 1rem;
+    }
+    
+    .globe-hero {
+        height: 70vh;
+    }
+}
