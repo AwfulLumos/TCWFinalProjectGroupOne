@@ -1,0 +1,303 @@
+/* Global Connections Section Styles */
+
+.global-intro {
+    background: rgba(0, 212, 255, 0.05);
+    padding: 2rem;
+    border-radius: 12px;
+    border-left: 4px solid #00d4ff;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.global-intro p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #e0e0e0;
+    margin: 0;
+}
+
+/* Connections Grid */
+.connections-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 2.5rem;
+    margin-top: 2rem;
+}
+
+.connection-card {
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(0, 212, 255, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.connection-card:hover {
+    border-color: #00d4ff;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 212, 255, 0.3);
+}
+
+.connection-header {
+    background: linear-gradient(135deg, rgba(0, 212, 255, 0.15), rgba(0, 100, 150, 0.15));
+    padding: 1.5rem 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.connection-number {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: rgba(0, 212, 255, 0.4);
+    line-height: 1;
+}
+
+.connection-header h3 {
+    color: #00d4ff;
+    font-size: 1.5rem;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+}
+
+.connection-image {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+    position: relative;
+}
+
+.connection-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.connection-card:hover .connection-image img {
+    transform: scale(1.05);
+}
+
+.connection-content {
+    padding: 2rem;
+}
+
+.connection-description {
+    color: #e0e0e0;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(0, 212, 255, 0.2);
+}
+
+.connection-details {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 212, 255, 0.15);
+}
+
+.connection-details h4 {
+    color: #00d4ff;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-top: 1.2rem;
+}
+
+.connection-details h4:first-child {
+    margin-top: 0;
+}
+
+.connection-details ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.2rem;
+}
+
+.connection-details li {
+    color: #e0e0e0;
+    padding: 0.7rem 0 0.7rem 1.8rem;
+    position: relative;
+    line-height: 1.6;
+    border-bottom: 1px solid rgba(0, 212, 255, 0.08);
+}
+
+.connection-details li:last-child {
+    border-bottom: none;
+}
+
+.connection-details li::before {
+    content: '▸';
+    color: #00d4ff;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.connection-details strong {
+    color: #00d4ff;
+    font-weight: 600;
+}
+
+.connection-details p {
+    color: #e0e0e0;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+/* Contemporary Connection Box */
+.contemporary-connection {
+    margin-top: 4rem;
+    padding: 2.5rem;
+    background: linear-gradient(135deg, rgba(0, 212, 255, 0.1), rgba(0, 100, 150, 0.1));
+    border: 2px solid rgba(0, 212, 255, 0.3);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.contemporary-connection h3 {
+    color: #00d4ff;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 0 0 15px rgba(0, 212, 255, 0.6);
+}
+
+.contemporary-connection p {
+    color: #e0e0e0;
+    font-size: 1.1rem;
+    line-height: 1.9;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Responsive Design for Global Connections */
+@media (max-width: 1200px) {
+    .connections-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .global-intro {
+        padding: 1.5rem;
+    }
+
+    .global-intro p {
+        font-size: 1rem;
+    }
+
+    .connections-grid {
+        gap: 2rem;
+    }
+
+    .connection-header {
+        padding: 1.2rem 1.5rem;
+        gap: 1rem;
+    }
+
+    .connection-number {
+        font-size: 2rem;
+    }
+
+    .connection-header h3 {
+        font-size: 1.3rem;
+    }
+
+    .connection-image {
+        height: 220px;
+    }
+
+    .connection-content {
+        padding: 1.5rem;
+    }
+
+    .connection-description {
+        font-size: 1rem;
+    }
+
+    .connection-details {
+        padding: 1.2rem;
+    }
+
+    .connection-details h4 {
+        font-size: 1.1rem;
+    }
+
+    .contemporary-connection {
+        padding: 2rem;
+        margin-top: 3rem;
+    }
+
+    .contemporary-connection h3 {
+        font-size: 1.6rem;
+    }
+
+    .contemporary-connection p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .global-intro {
+        padding: 1rem;
+    }
+
+    .global-intro p {
+        font-size: 0.95rem;
+    }
+
+    .connection-header {
+        padding: 1rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .connection-number {
+        font-size: 1.5rem;
+    }
+
+    .connection-header h3 {
+        font-size: 1.2rem;
+    }
+
+    .connection-image {
+        height: 180px;
+    }
+
+    .connection-content {
+        padding: 1.2rem;
+    }
+
+    .connection-description {
+        font-size: 0.95rem;
+    }
+
+    .connection-details {
+        padding: 1rem;
+    }
+
+    .connection-details h4 {
+        font-size: 1rem;
+    }
+
+    .connection-details li {
+        padding: 0.6rem 0 0.6rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .contemporary-connection {
+        padding: 1.5rem;
+    }
+
+    .contemporary-connection h3 {
+        font-size: 1.4rem;
+    }
+
+    .contemporary-connection p {
+        font-size: 0.95rem;
+    }
+}
