@@ -1,0 +1,319 @@
+/* Personal Reflections Section Styles */
+
+.reflections-intro {
+    background: rgba(0, 212, 255, 0.05);
+    padding: 2rem;
+    border-radius: 12px;
+    border-left: 4px solid #00d4ff;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.reflections-intro p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #e0e0e0;
+    margin: 0;
+}
+
+/* Reflections Grid */
+.reflections-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.reflection-card {
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(0, 212, 255, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.reflection-card:hover {
+    border-color: #00d4ff;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 212, 255, 0.3);
+}
+
+/* Reflection Header */
+.reflection-header {
+    background: linear-gradient(135deg, rgba(0, 212, 255, 0.15), rgba(0, 100, 150, 0.15));
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    border-bottom: 1px solid rgba(0, 212, 255, 0.2);
+}
+
+.member-avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #00d4ff, #0088cc);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0a0a0a;
+    flex-shrink: 0;
+    box-shadow: 0 4px 15px rgba(0, 212, 255, 0.4);
+}
+
+.member-info h3 {
+    color: #00d4ff;
+    font-size: 1.3rem;
+    margin: 0 0 0.3rem 0;
+    text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+}
+
+.member-role {
+    color: #66e0ff;
+    font-size: 0.9rem;
+    margin: 0;
+    opacity: 0.8;
+}
+
+/* Reflection Content */
+.reflection-content {
+    padding: 2rem;
+}
+
+.reflection-content h4 {
+    color: #00d4ff;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.reflection-text {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1.5rem;
+    border-radius: 10px;
+    border-left: 3px solid #00d4ff;
+    margin-bottom: 1.5rem;
+    min-height: 150px;
+}
+
+.reflection-text p {
+    color: #e0e0e0;
+    line-height: 1.8;
+    margin: 0;
+    font-size: 1.05rem;
+}
+
+.placeholder-text {
+    color: #999;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+/* Reflection Questions */
+.reflection-questions {
+    background: rgba(0, 212, 255, 0.05);
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 212, 255, 0.15);
+}
+
+.reflection-questions ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.reflection-questions li {
+    color: #e0e0e0;
+    padding: 0.6rem 0 0.6rem 1.5rem;
+    position: relative;
+    line-height: 1.6;
+    font-size: 0.95rem;
+    border-bottom: 1px solid rgba(0, 212, 255, 0.08);
+}
+
+.reflection-questions li:last-child {
+    border-bottom: none;
+}
+
+.reflection-questions li::before {
+    content: '?';
+    color: #00d4ff;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* Closing Message */
+.reflections-closing {
+    margin-top: 4rem;
+    padding: 2.5rem;
+    background: linear-gradient(135deg, rgba(0, 212, 255, 0.1), rgba(0, 100, 150, 0.1));
+    border: 2px solid rgba(0, 212, 255, 0.3);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.reflections-closing h3 {
+    color: #00d4ff;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 0 0 15px rgba(0, 212, 255, 0.6);
+}
+
+.reflections-closing p {
+    color: #e0e0e0;
+    font-size: 1.1rem;
+    line-height: 1.9;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Responsive Design for Personal Reflections */
+@media (max-width: 1024px) {
+    .reflections-grid {
+        grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .reflections-intro {
+        padding: 1.5rem;
+    }
+
+    .reflections-intro p {
+        font-size: 1rem;
+    }
+
+    .reflections-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .reflection-header {
+        padding: 1.2rem;
+        gap: 1rem;
+    }
+
+    .member-avatar {
+        width: 60px;
+        height: 60px;
+        font-size: 1.3rem;
+    }
+
+    .member-info h3 {
+        font-size: 1.15rem;
+    }
+
+    .member-role {
+        font-size: 0.85rem;
+    }
+
+    .reflection-content {
+        padding: 1.5rem;
+    }
+
+    .reflection-content h4 {
+        font-size: 1.1rem;
+    }
+
+    .reflection-text {
+        padding: 1.2rem;
+        min-height: 120px;
+    }
+
+    .reflection-text p {
+        font-size: 1rem;
+    }
+
+    .reflection-questions {
+        padding: 0.8rem 1.2rem;
+    }
+
+    .reflection-questions li {
+        font-size: 0.9rem;
+        padding: 0.5rem 0 0.5rem 1.3rem;
+    }
+
+    .reflections-closing {
+        padding: 2rem;
+        margin-top: 3rem;
+    }
+
+    .reflections-closing h3 {
+        font-size: 1.6rem;
+    }
+
+    .reflections-closing p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .reflections-intro {
+        padding: 1rem;
+    }
+
+    .reflections-intro p {
+        font-size: 0.95rem;
+    }
+
+    .reflection-header {
+        padding: 1rem;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .member-avatar {
+        width: 50px;
+        height: 50px;
+        font-size: 1.1rem;
+    }
+
+    .member-info h3 {
+        font-size: 1.1rem;
+    }
+
+    .reflection-content {
+        padding: 1.2rem;
+    }
+
+    .reflection-content h4 {
+        font-size: 1rem;
+    }
+
+    .reflection-text {
+        padding: 1rem;
+        min-height: 100px;
+    }
+
+    .reflection-text p {
+        font-size: 0.95rem;
+    }
+
+    .reflection-questions {
+        padding: 0.8rem 1rem;
+    }
+
+    .reflection-questions li {
+        font-size: 0.85rem;
+        padding: 0.5rem 0 0.5rem 1.2rem;
+    }
+
+    .reflections-closing {
+        padding: 1.5rem;
+    }
+
+    .reflections-closing h3 {
+        font-size: 1.4rem;
+    }
+
+    .reflections-closing p {
+        font-size: 0.95rem;
+    }
+}

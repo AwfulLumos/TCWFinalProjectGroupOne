@@ -1,4 +1,3 @@
-// Cultural Features Inline Html COmponent
 // Marv, mag inline component nalang tayo di ko kasi magawang component based wala kasi tayong framework
 const culturalFeaturesHTML = `
 <!-- Major Cultural Features Section -->

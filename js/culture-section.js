@@ -1,4 +1,3 @@
-// Culture Section Component - Inline HTML
 // Marv, mag inline component nalang tayo di ko kasi magawang component based wala kasi tayong framework
 const cultureSectionHTML = `
 <section id="culture" class="section">

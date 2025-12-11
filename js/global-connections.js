@@ -1,6 +1,4 @@
-// Global Connections Inline HTML Component
-// Japan's connection to the contemporary world
-
+// Marv, mag inline component nalang tayo di ko kasi magawang component based wala kasi tayong framework
 const globalConnectionsHTML = `
 <!-- Global Connections Section -->
 <section id="global-connections" class="section">

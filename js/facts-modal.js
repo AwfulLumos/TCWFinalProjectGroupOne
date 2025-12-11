@@ -1,3 +1,4 @@
+// Marv, mag inline component nalang tayo di ko kasi magawang component based wala kasi tayong framework
 const factsData = {
   location: {
     icon: "📍",
