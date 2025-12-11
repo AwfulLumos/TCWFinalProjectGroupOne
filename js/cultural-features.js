@@ -15,7 +15,6 @@ const culturalFeaturesHTML = `
     <div class="cultural-grid">
       <!-- 1. Food & Cuisine -->
       <div class="cultural-feature-card">
-        <div class="feature-icon">🍱</div>
         <h3>Food & Cuisine</h3>
         <div class="feature-image">
           <img src="https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&h=600&fit=crop" alt="Japanese Cuisine - Sushi and Traditional Food" loading="lazy">
@@ -42,7 +41,6 @@ const culturalFeaturesHTML = `
 
       <!-- 2. Clothing & Fashion -->
       <div class="cultural-feature-card">
-        <div class="feature-icon">👘</div>
         <h3>Clothing & Fashion</h3>
         <div class="feature-image">
           <img src="https://cdn.shopify.com/s/files/1/0033/2660/7409/files/purple-furisode.jpg?v=1714456705" alt="Japanese Kimono - Traditional Clothing" loading="lazy">
@@ -72,7 +70,6 @@ const culturalFeaturesHTML = `
 
       <!-- 3. Traditions & Customs -->
       <div class="cultural-feature-card">
-        <div class="feature-icon">🙇</div>
         <h3>Traditions & Customs</h3>
         <div class="feature-image">
           <img src="https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&h=600&fit=crop" alt="Japanese Tea Ceremony - Traditional Custom" loading="lazy">
@@ -103,7 +100,6 @@ const culturalFeaturesHTML = `
 
       <!-- 4. Festivals & Celebrations -->
       <div class="cultural-feature-card">
-        <div class="feature-icon">🎆</div>
         <h3>Festivals & Celebrations</h3>
         <div class="feature-image">
           <img src="https://images.unsplash.com/photo-1492571350019-22de08371fd3?w=800&h=600&fit=crop" alt="Japanese Festival - Cherry Blossoms and Celebrations" loading="lazy">
@@ -127,7 +123,6 @@ const culturalFeaturesHTML = `
 
       <!-- 5. Arts, Music & Literature -->
       <div class="cultural-feature-card">
-        <div class="feature-icon">🎨</div>
         <h3>Arts, Music & Literature</h3>
         <div class="feature-image">
           <img src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&h=600&fit=crop" alt="Japanese Art - Traditional Painting and Calligraphy" loading="lazy">
@@ -148,7 +143,6 @@ const culturalFeaturesHTML = `
 
       <!-- 6. Religion, Values & Beliefs -->
       <div class="cultural-feature-card">
-        <div class="feature-icon">⛩️</div>
         <h3>Religion, Values & Beliefs</h3>
         <div class="feature-image">
           <img src="https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=600&fit=crop" alt="Japanese Torii Gate - Shinto Shrine" loading="lazy">
@@ -177,7 +171,6 @@ const culturalFeaturesHTML = `
 
       <!-- 7. Architecture -->
       <div class="cultural-feature-card">
-        <div class="feature-icon">🏯</div>
         <h3>Architecture</h3>
         <div class="feature-image">
           <img src="https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=800&h=600&fit=crop" alt="Japanese Castle - Traditional Architecture" loading="lazy">
@@ -209,7 +202,6 @@ const culturalFeaturesHTML = `
 
       <!-- 8. Language & Communication -->
       <div class="cultural-feature-card">
-        <div class="feature-icon">💬</div>
         <h3>Language & Communication</h3>
         <div class="feature-image">
           <img src="https://images.unsplash.com/photo-1528164344705-47542687000d?w=800&h=600&fit=crop" alt="Japanese Calligraphy - Language and Writing" loading="lazy">
@@ -331,3 +323,310 @@ function openCulturalFeatureModal(featureKey) {
 
 // Load cultural features when DOM is ready
 document.addEventListener("DOMContentLoaded", loadCulturalFeatures);
+
+// Contemporary Issues & Challenges Section
+const contemporaryIssuesHTML = `
+<!-- Contemporary Issues & Challenges Section -->
+<section id="contemporary-issues" class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Contemporary Issues & Challenges</h2>
+      <p class="section-subtitle">
+        Current Challenges Facing Japanese Culture and Society
+      </p>
+    </div>
+
+    <!-- Issues Carousel -->
+    <div class="issues-carousel-container">
+      <button class="carousel-btn carousel-btn-prev" aria-label="Previous Issue">
+        <span>‹</span>
+      </button>
+      
+      <div class="issues-carousel">
+        <div class="carousel-track">
+          <!-- Issue 1: Cultural Preservation -->
+          <div class="issue-card">
+            <div class="issue-number">01</div>
+            <h3>Cultural Preservation</h3>
+            <div class="issue-image">
+              <img src="https://images.unsplash.com/photo-1528164344705-47542687000d?w=800&h=600&fit=crop" alt="Traditional Japanese Temple" loading="lazy">
+            </div>
+            <div class="issue-content">
+              <p class="issue-description">
+                Japan faces the challenge of preserving its rich cultural heritage while adapting to modern times. Traditional crafts, arts and practices are at risk as younger generations pursue contemporary careers.
+              </p>
+              <div class="issue-details">
+                <h4>Key Concerns:</h4>
+                <ul>
+                  <li>Declining interest in traditional arts and crafts</li>
+                  <li>Loss of artisan skills and knowledge</li>
+                  <li>Historic buildings requiring restoration</li>
+                  <li>Maintaining traditional festivals and customs</li>
+                </ul>
+                <h4>Current Efforts:</h4>
+                <p>
+                  The government has designated "Living National Treasures" to honor and support master craftspeople. UNESCO recognition of various cultural practices helps raise awareness and funding for preservation efforts.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Issue 2: Traditional vs. Modern Lifestyles -->
+          <div class="issue-card">
+            <div class="issue-number">02</div>
+            <h3>Traditional vs. Modern Lifestyles</h3>
+            <div class="issue-image">
+              <img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&h=600&fit=crop" alt="Modern Tokyo vs Traditional Japan" loading="lazy">
+            </div>
+            <div class="issue-content">
+              <p class="issue-description">
+                Japanese society grapples with balancing traditional values like respect for elders and group harmony with modern individualism and global lifestyles.
+              </p>
+              <div class="issue-details">
+                <h4>Key Tensions:</h4>
+                <ul>
+                  <li>Work-life balance vs. traditional work ethic</li>
+                  <li>Individual expression vs. social conformity</li>
+                  <li>Gender roles and equality expectations</li>
+                  <li>Urban migration leaving rural areas depopulated</li>
+                </ul>
+                <h4>Societal Impact:</h4>
+                <p>
+                  Younger generations increasingly question practices like lifetime employment and strict hierarchies. The rise of "hikikomori" (social withdrawal) reflects tensions between social expectations and personal well-being.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Issue 3: Globalization Pressures -->
+          <div class="issue-card">
+            <div class="issue-number">03</div>
+            <h3>Globalization Pressures</h3>
+            <div class="issue-image">
+              <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&h=600&fit=crop" alt="Global Influence in Japan" loading="lazy">
+            </div>
+            <div class="issue-content">
+              <p class="issue-description">
+                As Japan becomes more integrated into the global economy and culture, there are concerns about maintaining cultural distinctiveness while remaining competitive internationally.
+              </p>
+              <div class="issue-details">
+                <h4>Challenges:</h4>
+                <ul>
+                  <li>Western fast food culture affecting traditional diet</li>
+                  <li>English language dominance in business</li>
+                  <li>International business practices vs. Japanese customs</li>
+                  <li>Cultural homogenization through media and technology</li>
+                </ul>
+                <h4>Response:</h4>
+                <p>
+                  Japan has successfully exported its pop culture (anime, manga, J-pop) globally while maintaining unique cultural identity. The concept of "Cool Japan" promotes Japanese culture internationally.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Issue 4: Stereotypes and Representation -->
+          <div class="issue-card">
+            <div class="issue-number">04</div>
+            <h3>Stereotypes and Representation</h3>
+            <div class="issue-image">
+              <img src="https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=600&fit=crop" alt="Japanese Cultural Representation" loading="lazy">
+            </div>
+            <div class="issue-content">
+              <p class="issue-description">
+                Japan continues to address both internal and external stereotypes that misrepresent its culture and people, from the "exotic Orient" narrative to oversimplified portrayals in global media.
+              </p>
+              <div class="issue-details">
+                <h4>Common Stereotypes:</h4>
+                <ul>
+                  <li>All Japanese people live in traditional settings or futuristic cities</li>
+                  <li>Overemphasis on samurai, geisha and ninja imagery</li>
+                  <li>Misunderstanding of politeness as passiveness</li>
+                  <li>Cultural appropriation of traditional items and practices</li>
+                </ul>
+                <h4>Moving Forward:</h4>
+                <p>
+                  Japanese creators increasingly control their own narratives through global platforms, presenting authentic, nuanced portrayals of contemporary Japanese life and challenging outdated stereotypes.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Issue 5: Aging Population & Labor Shortage -->
+          <div class="issue-card">
+            <div class="issue-number">05</div>
+            <h3>Demographic & Economic Challenges</h3>
+            <div class="issue-image">
+              <img src="https://images.unsplash.com/photo-1528642474498-1af0c17fd8c3?w=800&h=600&fit=crop" alt="Aging Japanese Population" loading="lazy">
+            </div>
+            <div class="issue-content">
+              <p class="issue-description">
+                Japan faces one of the world's most rapidly aging populations with a declining birth rate, creating significant economic and cultural implications for the nation's future.
+              </p>
+              <div class="issue-details">
+                <h4>Key Issues:</h4>
+                <ul>
+                  <li>Over 28% of population over age 65</li>
+                  <li>Declining workforce and economic productivity</li>
+                  <li>Strain on healthcare and pension systems</li>
+                  <li>Traditional family care systems breaking down</li>
+                </ul>
+                <h4>Cultural Impact:</h4>
+                <p>
+                  The demographic crisis affects cultural transmission as fewer young people learn traditional practices. Immigration policies are slowly changing, though cultural attitudes toward diversity remain a challenge.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Issue 6: Environmental Sustainability -->
+          <div class="issue-card">
+            <div class="issue-number">06</div>
+            <h3>Environmental & Natural Disaster Challenges</h3>
+            <div class="issue-image">
+              <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&h=600&fit=crop" alt="Japanese Natural Environment" loading="lazy">
+            </div>
+            <div class="issue-content">
+              <p class="issue-description">
+                As an island nation vulnerable to earthquakes, tsunamis and typhoons, Japan must balance economic development with environmental protection and disaster preparedness.
+              </p>
+              <div class="issue-details">
+                <h4>Environmental Concerns:</h4>
+                <ul>
+                  <li>Nuclear energy policy post-Fukushima</li>
+                  <li>Plastic waste and ocean pollution</li>
+                  <li>Climate change impacts on traditional agriculture</li>
+                  <li>Balancing development with nature conservation</li>
+                </ul>
+                <h4>Cultural Connection:</h4>
+                <p>
+                  Japan's deep cultural connection to nature (seen in Shinto beliefs and seasonal celebrations) drives strong environmental consciousness, though conflicts arise between tradition and modern economic needs.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <button class="carousel-btn carousel-btn-next" aria-label="Next Issue">
+        <span>›</span>
+      </button>
+    </div>
+
+    <!-- Carousel Indicators -->
+    <div class="carousel-indicators">
+      <button class="indicator active" data-index="0" aria-label="Issue 1"></button>
+      <button class="indicator" data-index="1" aria-label="Issue 2"></button>
+      <button class="indicator" data-index="2" aria-label="Issue 3"></button>
+      <button class="indicator" data-index="3" aria-label="Issue 4"></button>
+      <button class="indicator" data-index="4" aria-label="Issue 5"></button>
+      <button class="indicator" data-index="5" aria-label="Issue 6"></button>
+    </div>
+  </div>
+</section>
+`;
+
+// Load Contemporary Issues section
+function loadContemporaryIssues() {
+  const container = document.getElementById("contemporary-issues-container");
+  if (container) {
+    container.innerHTML = contemporaryIssuesHTML;
+    initializeIssuesCarousel();
+  }
+}
+
+// Initialize Issues Carousel
+function initializeIssuesCarousel() {
+  const track = document.querySelector(".carousel-track");
+  const cards = document.querySelectorAll(".issue-card");
+  const prevBtn = document.querySelector(".carousel-btn-prev");
+  const nextBtn = document.querySelector(".carousel-btn-next");
+  const indicators = document.querySelectorAll(".indicator");
+
+  let currentIndex = 0;
+  const totalCards = cards.length;
+
+  // Update carousel position
+  function updateCarousel() {
+    const offset = -currentIndex * 100;
+    track.style.transform = `translateX(${offset}%)`;
+
+    // Update indicators
+    indicators.forEach((indicator, index) => {
+      indicator.classList.toggle("active", index === currentIndex);
+    });
+
+    // Update button states
+    prevBtn.disabled = currentIndex === 0;
+    nextBtn.disabled = currentIndex === totalCards - 1;
+  }
+
+  // Previous button
+  prevBtn.addEventListener("click", () => {
+    if (currentIndex > 0) {
+      currentIndex--;
+      updateCarousel();
+    }
+  });
+
+  // Next button
+  nextBtn.addEventListener("click", () => {
+    if (currentIndex < totalCards - 1) {
+      currentIndex++;
+      updateCarousel();
+    }
+  });
+
+  // Indicator buttons
+  indicators.forEach((indicator, index) => {
+    indicator.addEventListener("click", () => {
+      currentIndex = index;
+      updateCarousel();
+    });
+  });
+
+  // Keyboard navigation
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowLeft" && currentIndex > 0) {
+      currentIndex--;
+      updateCarousel();
+    } else if (e.key === "ArrowRight" && currentIndex < totalCards - 1) {
+      currentIndex++;
+      updateCarousel();
+    }
+  });
+
+  // Touch/Swipe support
+  let touchStartX = 0;
+  let touchEndX = 0;
+
+  track.addEventListener("touchstart", (e) => {
+    touchStartX = e.changedTouches[0].screenX;
+  });
+
+  track.addEventListener("touchend", (e) => {
+    touchEndX = e.changedTouches[0].screenX;
+    handleSwipe();
+  });
+
+  function handleSwipe() {
+    const swipeThreshold = 50;
+    if (
+      touchStartX - touchEndX > swipeThreshold &&
+      currentIndex < totalCards - 1
+    ) {
+      currentIndex++;
+      updateCarousel();
+    } else if (touchEndX - touchStartX > swipeThreshold && currentIndex > 0) {
+      currentIndex--;
+      updateCarousel();
+    }
+  }
+
+  // Initialize
+  updateCarousel();
+}
+
+// Load contemporary issues when DOM is ready
+document.addEventListener("DOMContentLoaded", loadContemporaryIssues);

@@ -178,3 +178,355 @@
         font-size: 0.9rem;
     }
 }
+
+/* Contemporary Issues & Challenges Carousel */
+.issues-carousel-container {
+    position: relative;
+    margin-top: 3rem;
+    padding: 0 60px;
+}
+
+.issues-carousel {
+    overflow: hidden;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 212, 255, 0.2);
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.issue-card {
+    min-width: 100%;
+    padding: 3rem;
+    background: rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+
+.issue-number {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgba(0, 212, 255, 0.1);
+    line-height: 1;
+    z-index: 0;
+}
+
+.issue-icon {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    filter: drop-shadow(0 0 20px rgba(0, 212, 255, 0.4));
+}
+
+.issue-card h3 {
+    color: #00d4ff;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 15px rgba(0, 212, 255, 0.5);
+    position: relative;
+    z-index: 1;
+}
+
+.issue-image {
+    width: 100%;
+    max-width: 800px;
+    height: 350px;
+    margin: 0 auto 2rem;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 2px solid rgba(0, 212, 255, 0.3);
+}
+
+.issue-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.issue-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.issue-description {
+    color: #e0e0e0;
+    font-size: 1.15rem;
+    line-height: 1.8;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: rgba(0, 212, 255, 0.05);
+    border-left: 4px solid #00d4ff;
+    border-radius: 8px;
+}
+
+.issue-details {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 212, 255, 0.15);
+}
+
+.issue-details h4 {
+    color: #00d4ff;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+.issue-details h4:first-child {
+    margin-top: 0;
+}
+
+.issue-details ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.issue-details li {
+    color: #e0e0e0;
+    padding: 0.6rem 0 0.6rem 1.8rem;
+    position: relative;
+    line-height: 1.6;
+    border-bottom: 1px solid rgba(0, 212, 255, 0.08);
+}
+
+.issue-details li:last-child {
+    border-bottom: none;
+}
+
+.issue-details li::before {
+    content: '◆';
+    color: #00d4ff;
+    position: absolute;
+    left: 0;
+    font-size: 0.8rem;
+}
+
+.issue-details p {
+    color: #e0e0e0;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+/* Carousel Navigation Buttons */
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 212, 255, 0.2);
+    border: 2px solid #00d4ff;
+    color: #00d4ff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    backdrop-filter: blur(5px);
+    padding: 0;
+    line-height: 1;
+}
+
+.carousel-btn:hover:not(:disabled) {
+    background: #00d4ff;
+    color: #0a0a0a;
+    transform: translateY(-50%) scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.6);
+}
+
+.carousel-btn:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.carousel-btn-prev {
+    left: 0;
+}
+
+.carousel-btn-next {
+    right: 0;
+}
+
+.carousel-btn span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    margin-top: -2px;
+}
+
+/* Carousel Indicators */
+.carousel-indicators {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid #00d4ff;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0;
+}
+
+.indicator:hover {
+    background: rgba(0, 212, 255, 0.5);
+    transform: scale(1.2);
+}
+
+.indicator.active {
+    background: #00d4ff;
+    box-shadow: 0 0 10px rgba(0, 212, 255, 0.8);
+}
+
+/* Responsive Design for Issues Carousel */
+@media (max-width: 1024px) {
+    .issue-card {
+        padding: 2.5rem;
+    }
+
+    .issue-number {
+        font-size: 3rem;
+        top: 1.5rem;
+        right: 1.5rem;
+    }
+
+    .issue-card h3 {
+        font-size: 1.7rem;
+    }
+
+    .issue-image {
+        height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .issues-carousel-container {
+        padding: 0 50px;
+    }
+
+    .issue-card {
+        padding: 2rem;
+    }
+
+    .issue-number {
+        font-size: 2.5rem;
+        top: 1rem;
+        right: 1rem;
+    }
+
+    .issue-icon {
+        font-size: 3rem;
+    }
+
+    .issue-card h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .issue-image {
+        height: 250px;
+    }
+
+    .issue-description {
+        font-size: 1.05rem;
+        padding: 1.2rem;
+    }
+
+    .issue-details {
+        padding: 1.5rem;
+    }
+
+    .issue-details h4 {
+        font-size: 1.15rem;
+    }
+
+    .carousel-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .issues-carousel-container {
+        padding: 0 40px;
+    }
+
+    .issue-card {
+        padding: 1.5rem;
+    }
+
+    .issue-number {
+        font-size: 2rem;
+        top: 0.8rem;
+        right: 0.8rem;
+    }
+
+    .issue-icon {
+        font-size: 2.5rem;
+    }
+
+    .issue-card h3 {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+
+    .issue-image {
+        height: 200px;
+    }
+
+    .issue-description {
+        font-size: 0.95rem;
+        padding: 1rem;
+    }
+
+    .issue-details {
+        padding: 1rem;
+    }
+
+    .issue-details h4 {
+        font-size: 1.05rem;
+        margin-top: 1rem;
+    }
+
+    .issue-details li {
+        padding: 0.5rem 0 0.5rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .carousel-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 1.3rem;
+    }
+
+    .indicator {
+        width: 10px;
+        height: 10px;
+    }
+
+    .carousel-indicators {
+        gap: 0.7rem;
+    }
+}
+
