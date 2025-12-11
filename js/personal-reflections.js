@@ -34,16 +34,21 @@ const personalReflectionsHTML = `
         <div class="reflection-content">
           <h4>Personal Reflection</h4>
           <div class="reflection-text">
-            <!-- Content to be added -->
-            <p class="placeholder-text">Reflection content will be added here...</p>
-          </div>
-          <div class="reflection-questions">
-            <ul>
-              <li>What did you learn about the culture?</li>
-              <li>How did this project change or deepen your understanding of globalization?</li>
-              <li>Why is cultural awareness important in today's world?</li>
-              <li>What values or insights can you apply to your life?</li>
-            </ul>
+            <p>
+              Studying Japan showed me how tradition and innovation can coexist. 
+              From Shinto values to high-tech cities, I saw how identity is 
+              preserved while adapting to global change.
+            </p>
+            <p>
+              This project deepened my view of globalization as cultural exchange, 
+              not just economics. It works best when communities keep core values 
+              while engaging with the world.
+            </p>
+            <p>
+              Cultural awareness helps avoid stereotypes and supports respectful 
+              collaboration. As a student, I’ll practice curiosity, empathy, and 
+              lifelong learning when working with diverse peers.
+            </p>
           </div>
         </div>
       </div>
@@ -60,16 +65,21 @@ const personalReflectionsHTML = `
         <div class="reflection-content">
           <h4>Personal Reflection</h4>
           <div class="reflection-text">
-            <!-- Content to be added -->
-            <p class="placeholder-text">Reflection content will be added here...</p>
-          </div>
-          <div class="reflection-questions">
-            <ul>
-              <li>What did you learn about the culture?</li>
-              <li>How did this project change or deepen your understanding of globalization?</li>
-              <li>Why is cultural awareness important in today's world?</li>
-              <li>What values or insights can you apply to your life?</li>
-            </ul>
+            <p>
+              I learned how Japanese discipline and attention to detail shape 
+              everyday life—from public etiquette to design. These small habits 
+              build trust and social harmony.
+            </p>
+            <p>
+              Globalization, to me, now includes shared standards and ideas that 
+              travel across borders. We adopt practices that improve quality of 
+              life while respecting local context.
+            </p>
+            <p>
+              Cultural awareness matters because it guides responsible choices. I’ll 
+              apply punctuality, respect for spaces, and continuous improvement 
+              (kaizen) in my studies and group work.
+            </p>
           </div>
         </div>
       </div>
@@ -86,16 +96,20 @@ const personalReflectionsHTML = `
         <div class="reflection-content">
           <h4>Personal Reflection</h4>
           <div class="reflection-text">
-            <!-- Content to be added -->
-            <p class="placeholder-text">Reflection content will be added here...</p>
-          </div>
-          <div class="reflection-questions">
-            <ul>
-              <li>What did you learn about the culture?</li>
-              <li>How did this project change or deepen your understanding of globalization?</li>
-              <li>Why is cultural awareness important in today's world?</li>
-              <li>What values or insights can you apply to your life?</li>
-            </ul>
+            <p>
+              Exploring Japanese media and cuisine showed how culture can be both 
+              local and global. Anime, fashion, and food carry identity while being 
+              enjoyed worldwide.
+            </p>
+            <p>
+              I now see globalization as networks of influence—ideas spread, adapt, 
+              and return improved. It’s a cycle that can strengthen cultural pride.
+            </p>
+            <p>
+              Awareness helps us consume and share responsibly. I’ll value 
+              authenticity, credit sources, and learn context before forming 
+              opinions or trends.
+            </p>
           </div>
         </div>
       </div>
@@ -112,16 +126,20 @@ const personalReflectionsHTML = `
         <div class="reflection-content">
           <h4>Personal Reflection</h4>
           <div class="reflection-text">
-            <!-- Content to be added -->
-            <p class="placeholder-text">Reflection content will be added here...</p>
-          </div>
-          <div class="reflection-questions">
-            <ul>
-              <li>What did you learn about the culture?</li>
-              <li>How did this project change or deepen your understanding of globalization?</li>
-              <li>Why is cultural awareness important in today's world?</li>
-              <li>What values or insights can you apply to your life?</li>
-            </ul>
+            <p>
+              I was struck by Japan’s community mindset—politeness, cleanliness, 
+              and mutual responsibility. These norms create safer, more efficient 
+              public spaces.
+            </p>
+            <p>
+              Globalization looks healthier when social values anchor development. 
+              Technology and trade are tools; shared ethics keep them human-centered.
+            </p>
+            <p>
+              As a student, I’ll bring respect, clear communication, and service to 
+              my teams. Small actions—like queueing properly or cleaning up—scale 
+              into a better campus culture.
+            </p>
           </div>
         </div>
       </div>
@@ -138,16 +156,20 @@ const personalReflectionsHTML = `
         <div class="reflection-content">
           <h4>Personal Reflection</h4>
           <div class="reflection-text">
-            <!-- Content to be added -->
-            <p class="placeholder-text">Reflection content will be added here...</p>
-          </div>
-          <div class="reflection-questions">
-            <ul>
-              <li>What did you learn about the culture?</li>
-              <li>How did this project change or deepen your understanding of globalization?</li>
-              <li>Why is cultural awareness important in today's world?</li>
-              <li>What values or insights can you apply to your life?</li>
-            </ul>
+            <p>
+              Learning about Japan’s resilience—from disasters to economic shifts—
+              taught me the value of preparedness and collective effort.
+            </p>
+            <p>
+              I now see globalization as shared challenges requiring shared 
+              solutions. Collaboration across borders speeds recovery and sparks 
+              innovation.
+            </p>
+            <p>
+              I will apply adaptability, teamwork, and evidence-based thinking in 
+              projects. Preparedness and practice make success feel intentional, not 
+              accidental.
+            </p>
           </div>
         </div>
       </div>
@@ -164,16 +186,19 @@ const personalReflectionsHTML = `
         <div class="reflection-content">
           <h4>Personal Reflection</h4>
           <div class="reflection-text">
-            <!-- Content to be added -->
-            <p class="placeholder-text">Reflection content will be added here...</p>
-          </div>
-          <div class="reflection-questions">
-            <ul>
-              <li>What did you learn about the culture?</li>
-              <li>How did this project change or deepen your understanding of globalization?</li>
-              <li>Why is cultural awareness important in today's world?</li>
-              <li>What values or insights can you apply to your life?</li>
-            </ul>
+            <p>
+              Japanese aesthetics—simplicity, balance, and respect for nature—
+              showed me how design reflects values and affects well-being.
+            </p>
+            <p>
+              Globalization spreads design languages that can improve spaces 
+              everywhere. The key is adapting them thoughtfully to local needs.
+            </p>
+            <p>
+              I’ll apply mindful design in presentations and teamwork: clear 
+              structure, less clutter, and purpose-driven choices that make ideas 
+              easier to understand.
+            </p>
           </div>
         </div>
       </div>
