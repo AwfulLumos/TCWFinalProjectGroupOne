@@ -166,11 +166,6 @@
   font-weight: 600;
 }
 
-.footer-references a::before {
-  content: "📚";
-  font-size: 1rem;
-}
-
 .footer-references a:hover {
   color: #00d4ff;
   background: rgba(0, 212, 255, 0.18);

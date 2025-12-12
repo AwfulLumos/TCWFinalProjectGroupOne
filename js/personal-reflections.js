@@ -46,7 +46,7 @@ const personalReflectionsHTML = `
             </p>
             <p>
               Cultural awareness helps avoid stereotypes and supports respectful 
-              collaboration. As a student, I’ll practice curiosity, empathy, and 
+              collaboration. As a student, I’ll practice curiosity, empathy and 
               lifelong learning when working with diverse peers.
             </p>
           </div>
@@ -77,7 +77,7 @@ const personalReflectionsHTML = `
             </p>
             <p>
               Cultural awareness matters because it guides responsible choices. I’ll 
-              apply punctuality, respect for spaces, and continuous improvement 
+              apply punctuality, respect for spaces and continuous improvement 
               (kaizen) in my studies and group work.
             </p>
           </div>
@@ -98,7 +98,7 @@ const personalReflectionsHTML = `
           <div class="reflection-text">
             <p>
               Exploring Japanese media and cuisine showed how culture can be both 
-              local and global. Anime, fashion, and food carry identity while being 
+              local and global. Anime, fashion and food carry identity while being 
               enjoyed worldwide.
             </p>
             <p>
@@ -107,7 +107,7 @@ const personalReflectionsHTML = `
             </p>
             <p>
               Awareness helps us consume and share responsibly. I’ll value 
-              authenticity, credit sources, and learn context before forming 
+              authenticity, credit sources and learn context before forming 
               opinions or trends.
             </p>
           </div>
@@ -127,18 +127,7 @@ const personalReflectionsHTML = `
           <h4>Personal Reflection</h4>
           <div class="reflection-text">
             <p>
-              I was struck by Japan’s community mindset—politeness, cleanliness, 
-              and mutual responsibility. These norms create safer, more efficient 
-              public spaces.
-            </p>
-            <p>
-              Globalization looks healthier when social values anchor development. 
-              Technology and trade are tools; shared ethics keep them human-centered.
-            </p>
-            <p>
-              As a student, I’ll bring respect, clear communication, and service to 
-              my teams. Small actions—like queueing properly or cleaning up—scale 
-              into a better campus culture.
+                Through this project in Japan, I learned how their culture mixes old-school stuff like tea ceremonies and Shinto shrines with super modern things like bullet trains and anime—it's all about that balance of tradition and innovation, plus their big focus on harmony. It really changed my view on globalization because I saw Japan isn't just taking in Western ideas; they're sending out sushi, tech, and Pokémon worldwide, making culture a two-way street. Cultural awareness is super important today since we're all connected online and with migration—it helps avoid mix-ups in school groups or future jobs, and builds respect in a world full of different views. As a student and citizen in Naga City, I can further apply Japan's insight of cultural balance by preserving local Bicol traditions like folk dances alongside adopting tech for school presentations, and their global exchange.
             </p>
           </div>
         </div>
@@ -157,18 +146,7 @@ const personalReflectionsHTML = `
           <h4>Personal Reflection</h4>
           <div class="reflection-text">
             <p>
-              Learning about Japan’s resilience—from disasters to economic shifts—
-              taught me the value of preparedness and collective effort.
-            </p>
-            <p>
-              I now see globalization as shared challenges requiring shared 
-              solutions. Collaboration across borders speeds recovery and sparks 
-              innovation.
-            </p>
-            <p>
-              I will apply adaptability, teamwork, and evidence-based thinking in 
-              projects. Preparedness and practice make success feel intentional, not 
-              accidental.
+                Through this project, I learned that Japan is a country that successfully mixes tradition and modernity. I realized how globalization connects Japan to the world through technology, food, pop culture, and international trade. This project helped me understand that cultures constantly change, but their identity remains important. Cultural awareness matters today because it helps us respect differences and appreciate diversity. As a student and future tourism professional, I can use these insights to communicate better with people from different cultures.
             </p>
           </div>
         </div>
@@ -187,17 +165,7 @@ const personalReflectionsHTML = `
           <h4>Personal Reflection</h4>
           <div class="reflection-text">
             <p>
-              Japanese aesthetics—simplicity, balance, and respect for nature—
-              showed me how design reflects values and affects well-being.
-            </p>
-            <p>
-              Globalization spreads design languages that can improve spaces 
-              everywhere. The key is adapting them thoughtfully to local needs.
-            </p>
-            <p>
-              I’ll apply mindful design in presentations and teamwork: clear 
-              structure, less clutter, and purpose-driven choices that make ideas 
-              easier to understand.
+                I learned that the Japanese are a country of respect, discipline, and simplicity, and that their people are very polite and organized. Through the online e-portfolio assignment, I gained a better understanding of globalization since I learned that various nations share their concepts, innovations, and practices with other nations. This experience taught me that, no matter how far apart we are in this world, we are all somehow related. Being aware of other cultures is significant in this modern world since it can help in preventing conflicts and in understanding other people’s ways of believing and doing things. I, as a college student, can make use of respect and understanding in my studies as well as with my classmates. I, as a member of society, can take those values as I relate with others.
             </p>
           </div>
         </div>

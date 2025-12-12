@@ -3,18 +3,8 @@
 const referencesData = [
   {
     citation:
-      "Japan Meteorological Corporation. (2025). Cherry blossom forecast. https://www.japan-weather.jp/en/",
-    url: "https://www.japan-weather.jp/en/",
-  },
-  {
-    citation:
       "UNESCO World Heritage Centre. (2025). World Heritage List: Japan. https://whc.unesco.org/en/statesparties/jp",
     url: "https://whc.unesco.org/en/statesparties/jp",
-  },
-  {
-    citation:
-      "JR Central. (2025). Shinkansen overview. https://global.jr-central.co.jp/",
-    url: "https://global.jr-central.co.jp/",
   },
   {
     citation:
@@ -49,7 +39,6 @@ function createReferencesModal() {
       <div class="modal-content">
         <span class="modal-close">&times;</span>
         <div class="modal-header">
-          <span class="modal-icon">📚</span>
           <h2 class="modal-title">References</h2>
         </div>
         <div class="modal-body">
